@@ -1,0 +1,26 @@
+{
+  "name": "genpark-llm-eval-benchmark-grader-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - LLM outputs validation factuality checker.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "evaluation",
+    "factuality"
+  ],
+  "inputs": {
+    "output_text": {
+      "type": "string"
+    },
+    "ground_truth": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "factuality_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
